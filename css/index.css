@@ -1189,6 +1189,11 @@ padding: 8px ;
     margin: 5px 20px;
    
 }
+@media (max-width:767px) {
+    .plans {
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
 .plans .plan .price {
    padding: 15px 0;
     color: white;
